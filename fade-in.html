@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            color: white;
+            background-color: rgb(42, 42, 42);
+        }
+
+        h1,
+        h2,
+        h3,
+        img,
+        p {
+            margin-bottom: 1rem;
+            animation: fade-in linear;
+            animation-timeline: view(90vh 0px);
+           
+        }
+        p{
+            line-height: 1.4rem;
+            color: gainsboro;
+        }
+        .container {
+            padding-inline: 1rem;
+            padding-block: 2rem;
+            margin-inline: auto;
+            max-width: 800px;
+            /* border: 2px solid black; */
+        }
+        h2{
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        img {
+            width: 400px;
+            object-fit: cover;
+            height: 300px;
+        }
+        .full-img {
+            width: 100%;
+            object-fit: cover;
+            height: 500px;
+        }
+        img{
+            animation: fade-in linear;
+            animation-timeline: view(90vh 0px);
+        }
+
+        footer{
+            padding-block: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(60, 60, 60);
+        }
+
+        @keyframes fade-in {
+            from{
+                opacity: 0;
+                scale: .8;
+                filter: saturate(0);
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+                filter: saturate(1);
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quae! </h2>
+        <img class="full-img" src="https://source.unsplash.com/random/900×700/?frames" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum dolor provident esse iusto aut
+            odio sunt tenetur. Animi omnis nam nihil fuga officia pariatur at voluptate possimus quaerat perspiciatis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quisquam ratione pariatur. Eius
+            voluptatem possimus molestiae sint assumenda ea culpa aliquam exercitationem aliquid deleniti ut
+            consectetur, veritatis nihil unde. Vero numquam nisi assumenda! Facere itaque rerum aspernatur repellat
+            laborum possimus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laborum dolor provident esse iusto aut
+            odio sunt tenetur. Animi omnis nam nihil fuga officia pariatur at voluptate possimus quaerat perspiciatis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi quisquam ratione pariatur. Eius
+            voluptatem possimus molestiae.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto molestiae maiores! Error,
+            consequatur unde aspernatur voluptatem impedit, recusandae sapiente facere nihil pariatur officia similique
+            optio voluptates. Ducimus dolor totam, ut voluptas molestias perspiciatis. Pariatur iste fugit recusandae,
+            qui quasi error possimus tempore nesciunt accusantium animi, laborum facilis voluptates. Perspiciatis
+            adipisci voluptatibus soluta quis dignissimos natus mollitia blanditiis saepe quidem? Fuga culpa, magnam
+            sed, nostrum, aut cupiditate esse ad magni accusantium repudiandae facere error ab debitis quia amet
+            dignissimos officiis? Quod animi nihil cum minima iste, inventore ab modi optio numquam dolorem tempore
+            placeat asperiores, corporis cumque. Velit, ex expedita?
+        </p>
+        <h2>Image Animation Only css </h2>
+        <img src="https://source.unsplash.com/random/900×700/?design" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores perferendis, officia commodi natus delectus ipsam reiciendis velit, ex modi, vel iste necessitatibus dolorem tempore ipsum facilis minus eaque. Obcaecati molestias minus in cum, ut numquam voluptatum modi doloribus incidunt blanditiis ad facere ab tempore nisi unde maiores perspiciatis accusamus ex, voluptatibus nesciunt aperiam optio magnam fuga? Laborum sit voluptates, repudiandae dolor ab, maxime in earum autem aliquid libero alias quas nam dolorem. Debitis magnam earum nihil optio magni dolorum vero. Esse nam ex sint nemo corrupti blanditiis necessitatibus distinctio dolore, perferendis exercitationem repellat dolorem dolor alias, repellendus suscipit iusto similique velit voluptate corporis atque! Amet itaque assumenda magnam commodi iste iusto ipsa unde nesciunt, aperiam fuga nisi illo rerum. Sequi incidunt quasi illo blanditiis exercitationem aut architecto eligendi, consequuntur, sapiente provident quibusdam molestias, quis ullam assumenda veritatis id magnam est animi tempora labore! Dolore, id sapiente. Totam eius magni at libero perspiciatis tenetur cupiditate pariatur officiis soluta nesciunt sit, optio ipsum sapiente modi iure id. Ea autem aperiam vero velit laudantium veniam est ipsum numquam, unde sequi debitis provident alias minus voluptatibus consequatur aut excepturi voluptatum explicabo nulla qui, odit delectus quam. Saepe incidunt perspiciatis consectetur possimus asperiores, totam qui?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore expedita dicta, rem molestias fugiat reiciendis ut quaerat perspiciatis voluptatem odio blanditiis aliquid sunt sit quae officia incidunt animi recusandae deleniti itaque quas asperiores perferendis nulla vero! Tempore unde qui ipsam sed nesciunt ratione id eveniet? Dicta quisquam ipsa laudantium veniam, molestiae sequi magni laborum harum repellat. Nam, doloribus fugit nulla commodi perspiciatis facere maxime in aut expedita accusantium recusandae porro sint voluptatem beatae sed, possimus aspernatur ex. Laborum, sit aliquam reiciendis, modi maxime aut aspernatur molestias necessitatibus velit possimus tenetur, voluptatibus saepe nam? Velit tempora aspernatur dolorem ea, sint fugiat esse quasi deserunt odit repellendus. Quaerat, beatae? Modi, voluptates. Eius deserunt ex animi porro dolore? Natus quam dolores ullam provident nam exercitationem in iure aspernatur veritatis maiores! In, error neque tempora nulla accusantium ut quod temporibus corporis sapiente qui ipsum, quia quos velit deleniti quaerat eligendi ex eius necessitatibus!
+        </p>
+        <h2>Check Every Animation. </h2>
+        <img src="https://source.unsplash.com/random/900×700/?colors" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores perferendis, officia commodi natus delectus ipsam reiciendis velit, ex modi, vel iste necessitatibus dolorem tempore ipsum facilis minus eaque. Obcaecati molestias minus in cum, ut numquam voluptatum modi doloribus incidunt blanditiis ad facere ab tempore nisi unde maiores perspiciatis accusamus ex, voluptatibus nesciunt aperiam optio magnam fuga? Laborum sit voluptates, repudiandae dolor ab, maxime in earum autem aliquid libero alias quas nam dolorem. Debitis magnam earum nihil optio magni dolorum vero. Esse nam ex sint nemo corrupti blanditiis necessitatibus distinctio dolore, perferendis exercitationem repellat dolorem dolor alias, repellendus suscipit iusto similique velit voluptate corporis atque! Amet itaque assumenda magnam commodi iste iusto ipsa unde nesciunt, aperiam fuga nisi illo rerum. Sequi incidunt quasi illo blanditiis exercitationem aut architecto eligendi, consequuntur, sapiente provident quibusdam molestias, quis ullam assumenda veritatis id magnam est animi tempora labore! Dolore, id sapiente. Totam eius magni at libero perspiciatis tenetur cupiditate pariatur officiis soluta nesciunt sit, optio ipsum sapiente modi iure id. Ea autem aperiam vero velit laudantium veniam est ipsum numquam, unde sequi debitis provident alias minus voluptatibus consequatur aut excepturi voluptatum explicabo nulla qui, odit delectus quam. Saepe incidunt perspiciatis consectetur possimus asperiores, totam qui?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod inventore expedita dicta, rem molestias fugiat reiciendis ut quaerat perspiciatis voluptatem odio blanditiis aliquid sunt sit quae officia incidunt animi recusandae deleniti itaque quas asperiores perferendis nulla vero! Tempore unde qui ipsam sed nesciunt ratione id eveniet? Dicta quisquam ipsa laudantium veniam, molestiae sequi magni laborum harum repellat. Nam, doloribus fugit nulla commodi perspiciatis facere maxime in aut expedita accusantium recusandae porro sint voluptatem beatae sed, possimus aspernatur ex. Laborum, sit aliquam reiciendis, modi maxime aut aspernatur molestias necessitatibus velit possimus tenetur, voluptatibus saepe nam? Velit tempora aspernatur dolorem ea, sint fugiat esse quasi deserunt odit repellendus. Quaerat, beatae? Modi, voluptates. Eius deserunt ex animi porro dolore? Natus quam dolores ullam provident nam exercitationem in iure aspernatur veritatis maiores! In, error neque tempora nulla accusantium ut quod temporibus corporis sapiente qui ipsum, quia quos velit deleniti quaerat eligendi ex eius necessitatibus!
+        </p>
+    </div>
+    <footer>
+        copyright @shazim ul kaif
+    </footer>
+</body>
+
+</html>
